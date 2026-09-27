@@ -25,6 +25,12 @@ identity-embedding metric catches.
 ```javascript
 project notebook (Google Colab, single NVIDIA T4 GPU)
 figures/     result figures used in the report
+
+# Not committed — mounted from Google Drive at /content/drive/MyDrive/cufs
+cufs/                                 CUFS dataset root
+├── photos/                           188 subject photos (e.g., m-061-01.jpg)
+├── sketches/                         188 artist sketches (e.g., M2-061-01-sz1.jpg)
+└── cufs_split.json                   reproducible split: 150 train / 38 test pairs
 ```
 
 ## Running the project
